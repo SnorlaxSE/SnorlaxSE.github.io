@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SnorlaxSE Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://snorlax.top/"/>
+  <updated>2020-06-10T06:47:56.047Z</updated>
+  <id>http://snorlax.top/</id>
+  
+  <author>
+    <name>SnorlaxSE</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>医学三维重建</title>
+    <link href="http://snorlax.top/2020/06/08/%E5%8C%BB%E5%AD%A6%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/"/>
+    <id>http://snorlax.top/2020/06/08/医学三维重建/</id>
+    <published>2020-06-08T12:48:52.000Z</published>
+    <updated>2020-06-10T06:47:56.047Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;基本知识&quot;&gt;&lt;a href=&quot;#基本知识&quot; class=&quot;headerlink&quot; title=&quot;基本知识&quot;&gt;&lt;/a&gt;基本知识&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>以荒之名</title>
+    <link href="http://snorlax.top/2020/06/07/%E4%BB%A5%E8%8D%92%E4%B9%8B%E5%90%8D/"/>
+    <id>http://snorlax.top/2020/06/07/以荒之名/</id>
+    <published>2020-06-07T08:06:49.000Z</published>
+    <updated>2020-06-07T11:15:28.288Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;至尊境&quot;&gt;&lt;a href=&quot;#至尊境&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="语录" scheme="http://snorlax.top/categories/%E8%AF%AD%E5%BD%95/"/>
+    
+    
+      <category term="完美世界" scheme="http://snorlax.top/tags/%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mediapipe-hand-tracking-Usage</title>
+    <link href="http://snorlax.top/2020/06/02/mediapipe-hand-tracking-%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://snorlax.top/2020/06/02/mediapipe-hand-tracking-使用步骤/</id>
+    <published>2020-06-02T09:17:33.000Z</published>
+    <updated>2020-06-05T07:45:32.527Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;相关文档&quot;&gt;&lt;a href=&quot;#相关文档&quot; class=&quot;headerlink&quot; title=&quot;相关文档&quot;&gt;&lt;/a&gt;相关文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python-package</title>
+    <link href="http://snorlax.top/2020/06/01/python-package/"/>
+    <id>http://snorlax.top/2020/06/01/python-package/</id>
+    <published>2020-06-01T12:39:49.000Z</published>
+    <updated>2020-06-01T12:54:01.390Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Utilities&quot;&gt;&lt;a href=&quot;#Utilities&quot; class=&quot;headerlink&quot; title=&quot;Utilities&quot;&gt;&lt;/a&gt;Utilities&lt;/h3&gt;&lt;h4 id=&quot;args&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://snorlax.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>论文笔记</title>
+    <link href="http://snorlax.top/2020/06/01/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+    <id>http://snorlax.top/2020/06/01/论文笔记/</id>
+    <published>2020-06-01T09:23:19.000Z</published>
+    <updated>2020-06-03T12:18:07.641Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;卷积神经网络&quot;&gt;&lt;a href=&quot;#卷积神经网络&quot; class=&quot;headerlink&quot; title=&quot;卷积神经网络&quot;&gt;&lt;/a&gt;卷积神经网络&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="论文" scheme="http://snorlax.top/categories/%E8%AE%BA%E6%96%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Pokemon</title>
+    <link href="http://snorlax.top/2020/05/31/Pokemon/"/>
+    <id>http://snorlax.top/2020/05/31/Pokemon/</id>
+    <published>2020-05-31T02:22:17.000Z</published>
+    <updated>2020-06-15T09:00:55.765Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Website&quot;&gt;&lt;a href=&quot;#Website&quot; class=&quot;headerlink&quot; title=&quot;Website&quot;&gt;&lt;/a&gt;Website&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="动漫" scheme="http://snorlax.top/categories/%E5%8A%A8%E6%BC%AB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Interesting Paper</title>
+    <link href="http://snorlax.top/2020/05/28/Interesting-Paper/"/>
+    <id>http://snorlax.top/2020/05/28/Interesting-Paper/</id>
+    <published>2020-05-28T07:54:42.000Z</published>
+    <updated>2020-06-16T09:09:21.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Medical-Image&quot;&gt;&lt;a href=&quot;#Medical-Image&quot; class=&quot;headerlink&quot; title=&quot;Medical Image&quot;&gt;&lt;/a&gt;Medical
+        
+      
+    
+    </summary>
+    
+      <category term="论文" scheme="http://snorlax.top/categories/%E8%AE%BA%E6%96%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MacBook-奇淫巧技</title>
+    <link href="http://snorlax.top/2020/05/24/MacBook-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/"/>
+    <id>http://snorlax.top/2020/05/24/MacBook-奇淫巧技/</id>
+    <published>2020-05-24T02:12:10.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;MBP-A2141&quot;&gt;&lt;a href=&quot;#MBP-A2141&quot; class=&quot;headerlink&quot; title=&quot;MBP A2141&quot;&gt;&lt;/a&gt;MBP A2141&lt;/h2&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://snorlax.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="MBP" scheme="http://snorlax.top/tags/MBP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>华为云ECS主机</title>
+    <link href="http://snorlax.top/2020/05/20/%E5%8D%8E%E4%B8%BA%E4%BA%91ECS%E4%B8%BB%E6%9C%BA/"/>
+    <id>http://snorlax.top/2020/05/20/华为云ECS主机/</id>
+    <published>2020-05-20T05:50:01.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;基本信息&quot;&gt;&lt;a href=&quot;#基本信息&quot; class=&quot;headerlink&quot; title=&quot;基本信息&quot;&gt;&lt;/a&gt;基本信息&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;操作系统：CentOS 7.6 64bit with
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git-奇淫巧技</title>
+    <link href="http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/"/>
+    <id>http://snorlax.top/2020/05/19/Git-奇淫巧技/</id>
+    <published>2020-05-19T14:57:48.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;About-Git&quot;&gt;&lt;a href=&quot;#About-Git&quot; class=&quot;headerlink&quot; title=&quot;About Git&quot;&gt;&lt;/a&gt;About Git&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://snorlax.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="git" scheme="http://snorlax.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Keras模型训练报错</title>
+    <link href="http://snorlax.top/2020/05/18/Keras%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8A%A5%E9%94%99/"/>
+    <id>http://snorlax.top/2020/05/18/Keras模型训练报错/</id>
+    <published>2020-05-18T09:24:08.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;模型训练维度不匹配&quot;&gt;&lt;a href=&quot;#模型训练维度不匹配&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://snorlax.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>七牛云图床同步</title>
+    <link href="http://snorlax.top/2020/05/18/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E5%90%8C%E6%AD%A5/"/>
+    <id>http://snorlax.top/2020/05/18/七牛云图床同步/</id>
+    <published>2020-05-18T04:49:32.000Z</published>
+    <updated>2020-06-01T11:35:20.473Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;第一步：工具下载&quot;&gt;&lt;a href=&quot;#第一步：工具下载&quot; class=&quot;headerlink&quot; title=&quot;第一步：工具下载&quot;&gt;&lt;/a&gt;第一步：工具下载&lt;/h3&gt;&lt;p&gt;本例下载工具版本如下： (传送门: &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>美国总统演讲汇总</title>
+    <link href="http://snorlax.top/2020/05/16/Presidential-Speech/"/>
+    <id>http://snorlax.top/2020/05/16/Presidential-Speech/</id>
+    <published>2020-05-16T10:25:38.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;美国历任总统&quot;&gt;&lt;a href=&quot;#美国历任总统&quot; class=&quot;headerlink&quot; title=&quot;美国历任总统&quot;&gt;&lt;/a&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="书签" scheme="http://snorlax.top/categories/%E4%B9%A6%E7%AD%BE/"/>
+    
+    
+      <category term="speech" scheme="http://snorlax.top/tags/speech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Awesome Demo</title>
+    <link href="http://snorlax.top/2020/05/15/Awesome-Demo/"/>
+    <id>http://snorlax.top/2020/05/15/Awesome-Demo/</id>
+    <published>2020-05-15T09:48:52.000Z</published>
+    <updated>2020-06-02T02:36:51.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Application&quot;&gt;&lt;a href=&quot;#Application&quot; class=&quot;headerlink&quot; title=&quot;Application&quot;&gt;&lt;/a&gt;Application&lt;/h3&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="书签" scheme="http://snorlax.top/categories/%E4%B9%A6%E7%AD%BE/"/>
+    
+    
+      <category term="demo" scheme="http://snorlax.top/tags/demo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Followers</title>
+    <link href="http://snorlax.top/2020/05/15/Followers/"/>
+    <id>http://snorlax.top/2020/05/15/Followers/</id>
+    <published>2020-05-15T06:22:56.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;ML-amp-DL&quot;&gt;&lt;a href=&quot;#ML-amp-DL&quot; class=&quot;headerlink&quot; title=&quot;ML &amp;amp; DL&quot;&gt;&lt;/a&gt;ML &amp;amp; DL&lt;/h3&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="书签" scheme="http://snorlax.top/categories/%E4%B9%A6%E7%AD%BE/"/>
+    
+    
+      <category term="blog" scheme="http://snorlax.top/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Theme-Sakura</title>
+    <link href="http://snorlax.top/2020/05/15/Hexo-Theme-Sakura/"/>
+    <id>http://snorlax.top/2020/05/15/Hexo-Theme-Sakura/</id>
+    <published>2020-05-15T05:16:01.000Z</published>
+    <updated>2020-06-03T13:10:24.867Z</updated>
+    
+    <summary type="html">
+    
+      hexo-sakura主题使用教程
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Github</title>
+    <link href="http://snorlax.top/2020/05/15/hexo-Github/"/>
+    <id>http://snorlax.top/2020/05/15/hexo-Github/</id>
+    <published>2020-05-14T17:00:45.000Z</published>
+    <updated>2020-06-01T03:17:38.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;图片路径问题&quot;&gt;&lt;a href=&quot;#图片路径问题&quot; class=&quot;headerlink&quot; title=&quot;图片路径问题&quot;&gt;&lt;/a&gt;图片路径问题&lt;/h3&gt;&lt;p&gt;a.
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello world</title>
+    <link href="http://snorlax.top/2020/05/15/hello-world/"/>
+    <id>http://snorlax.top/2020/05/15/hello-world/</id>
+    <published>2020-05-14T16:08:56.000Z</published>
+    <updated>2020-06-16T08:55:02.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
