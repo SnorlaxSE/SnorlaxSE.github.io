@@ -475,6 +475,11 @@
         
         <div class="entry-content">
           <a id="more"></a>
+<p><img src="https://pic1.zhimg.com/80/v2-3f8c9148cc79f5b015d843e56dd0fe61_1440w.jpg" alt></p>
+<ul>
+<li>blog：<a href="https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html" target="_blank" rel="noopener">https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html</a></li>
+<li>Web Demo：<a href="https://storage.googleapis.com/tfjs-models/demos/handpose/index.html" target="_blank" rel="noopener">https://storage.googleapis.com/tfjs-models/demos/handpose/index.html</a></li>
+</ul>
 <h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul>
 <li><a href="https://github.com/google/mediapipe/blob/master/mediapipe/docs/building_examples.md" target="_blank" rel="noopener">Building MediaPipe Examples</a></li>
 <li><a href="https://github.com/google/mediapipe/blob/master/mediapipe/docs/hand_tracking_mobile_gpu.md" target="_blank" rel="noopener">hand_tracking_mobile_gpu.md</a></li>
@@ -541,7 +546,8 @@ cc_library(
 </code></pre>
 <p>参考：<a href="https://github.com/google/mediapipe/issues/496" target="_blank" rel="noopener">OpenCV 2 headers not found on Arch Linux with OpenCV 4 #496</a></p>
 <h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Option-1-Running-on-CPU"><a href="#Option-1-Running-on-CPU" class="headerlink" title="Option 1: Running on CPU"></a>Option 1: Running on CPU</h3><h4 id="hand-tracking-cpu"><a href="#hand-tracking-cpu" class="headerlink" title="hand_tracking_cpu"></a>hand_tracking_cpu</h4><pre><code class="lang-shell">$ bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/hand_tracking:hand_tracking_cpu
-$ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_desktop_live.pbtxt --input_video_path=&lt;input_video_path&gt;
+# $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_desktop_live.pbtxt --input_video_path=&lt;input_video_path&gt;
+$ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_desktop_live.pbtxt --input_video_path=/Users/snorlaxse/Desktop/multi-hand-demo.mp4 --output_video_path=/Users/snorlaxse/Desktop/multi-hand-demo-output.mp4
 </code></pre>
 <p>第一次编译的时候会下载一些依赖，之后就不会了.<br>编译完成后，项目根目录下会出现 4个 alias文件夹（alias: origin）<br><small><strong>1、 bazel-bin: /private/var/tmp/_bazel_snorlaxse/8b6206b871f2e541142be86f99764a24/execroot/mediapipe/bazel-out/darwin-opt/bin<br>2、 bazel-mediapipe-master: /private/var/tmp/_bazel_snorlaxse/8b6206b871f2e541142be86f99764a24/execroot/mediapipe<br>3、 bazel-out: /private/var/tmp/_bazel_snorlaxse/8b6206b871f2e541142be86f99764a24/execroot/mediapipe/bazel-out<br>4、 bazel-testlogs: /private/var/tmp/_bazel_snorlaxse/8b6206b871f2e541142be86f99764a24/execroot/mediapipe/bazel-out/darwin-opt/testlogs
 </strong>
@@ -569,9 +575,12 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/mu
 <li><a href="https://gist.github.com/eknight7/d4a57504c8f866fc80c0eb2c61ff6b4f" target="_blank" rel="noopener">Multi-Hand Tracking via Live Webcam on CPU on Desktop: Shows how to extract landmarks on desktop.</a></li>
 </ul>
 <pre><code class="lang-bash">bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/multi_hand_tracking:multi_hand_tracking_cpu
-# GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/multi_hand_tracking_desktop_live.pbtxt --input_video_path=/Users/snorlaxse/Desktop/test.mp4 --output_video_path=/Users/snorlaxse/Desktop/test-output.mp4
-GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --input_video_path=/Users/snorlaxse/Desktop/test.mp4 --output_video_path=/Users/snorlaxse/Desktop/test-output.mp4
+# GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/multi_hand_tracking_desktop_live.pbtxt --input_video_path=/Users/snorlaxse/Desktop/multi-hand-demo.mp4 --output_video_path=/Users/snorlaxse/Desktop/multi-hand-demo-output.mp4
+GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --input_video_path=/Users/snorlaxse/Desktop/multi-hand-demo.mp4 --output_video_path=/Users/snorlaxse/Desktop/multi-hand-demo-output.mp4
 </code></pre>
+<ul>
+<li><a href="https://gist.github.com/eknight7/d4a57504c8f866fc80c0eb2c61ff6b4f#gistcomment-3344601" target="_blank" rel="noopener">ERROR: unknown command line flag ‘calculator_graph_config_file’</a></li>
+</ul>
 
         </div>
         <!-- .entry-content -->
