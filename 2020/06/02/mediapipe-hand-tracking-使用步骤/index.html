@@ -568,6 +568,10 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/mu
 <h3 id="多手检测点输出"><a href="#多手检测点输出" class="headerlink" title="多手检测点输出"></a>多手检测点输出</h3><ul>
 <li><a href="https://gist.github.com/eknight7/d4a57504c8f866fc80c0eb2c61ff6b4f" target="_blank" rel="noopener">Multi-Hand Tracking via Live Webcam on CPU on Desktop: Shows how to extract landmarks on desktop.</a></li>
 </ul>
+<pre><code class="lang-bash">bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/multi_hand_tracking:multi_hand_tracking_cpu
+# GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/multi_hand_tracking_desktop_live.pbtxt --input_video_path=/Users/snorlaxse/Desktop/test.mp4 --output_video_path=/Users/snorlaxse/Desktop/test-output.mp4
+GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/multi_hand_tracking_cpu --input_video_path=/Users/snorlaxse/Desktop/test.mp4 --output_video_path=/Users/snorlaxse/Desktop/test-output.mp4
+</code></pre>
 
         </div>
         <!-- .entry-content -->
