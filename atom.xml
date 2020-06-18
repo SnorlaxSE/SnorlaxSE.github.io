@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://snorlax.top/"/>
-  <updated>2020-06-10T06:47:56.047Z</updated>
+  <updated>2020-06-18T03:01:18.330Z</updated>
   <id>http://snorlax.top/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://snorlax.top/2020/06/18/example/"/>
+    <id>http://snorlax.top/2020/06/18/example/</id>
+    <published>2020-06-18T03:01:18.330Z</published>
+    <updated>2020-06-18T03:01:18.330Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>医学三维重建</title>

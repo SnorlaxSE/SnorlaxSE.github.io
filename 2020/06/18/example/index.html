@@ -8,8 +8,6 @@
     
         <title itemprop="name">
             
-                医学三维重建 |
-                    
                         SnorlaxSE Blog
         </title>
         
@@ -442,30 +440,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://vthumb.ykimg.com/054104085A71A1CD00000114C9036154);" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://vthumb.ykimg.com/054104085A71A1CD00000114C9036154">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      医学三维重建</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="https://qiniu.snorlax.top/img/custom/avatar.jpg">
-          </a>
-        </span>
-        <span>
-          <a href="">SnorlaxSE</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2020-6-8<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -473,26 +447,15 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
-        <div class="entry-content">
-          <a id="more"></a>
-<h3 id="基本知识"><a href="#基本知识" class="headerlink" title="基本知识"></a>基本知识</h3><ul>
-<li><a href="https://www.cnblogs.com/XDU-Lakers/p/10822840.html" target="_blank" rel="noopener">基于面绘制的MC算法以及基于体绘制的 Ray-casting 实现Dicom图像的三维重建(python实现)</a></li>
-</ul>
-<p>无论是面绘制还是体绘制都需要一定的VTK知识，所以先了解VTK的一些基础知识才能帮助你更好的掌握这些方法。</p>
-<p><img src="https://img2018.cnblogs.com/blog/1179840/201905/1179840-20190507160750620-2139686387.png" alt></p>
-<p>有关VTK整个数据流的过程可以用一下的例子进行类比，方便理解(虽然这个类比不是非常形象)：</p>
-<p>　　当我们去看舞台剧的时候，我们坐在台下，展现在我们面前的是一个舞台，舞台上有各式的灯光，各样的演员。演员出场的时候肯定是会先化妆，有些演员可能会打扮成高富帅，有些演员可能会化妆成白富美。观众有时还会与台上的演员有一定的互动。<br>　　整个剧院就好比VTK程序的渲染窗口(vtkRenderWindow)；舞台就相当于渲染场景(vtkRenderer)；而那些高富帅、白富美就是我们程序中的Actor(有些文献翻译成“演员”，有些翻译成“角色”，这里我们不作翻译)；台上的演员与台下观众的互动可以看成是程序的交互(vtkRenderWindowInteractor)；演员与观众的互动方式有很多种，现场的观众可以直接上台跟演员们握手拥抱，电视机前的可以发短信，电脑、移动终端用户等可以微博关注、加粉等等，这就好比我们程序里的交互器样式(vtkInteractorStyle)；<br>　　舞台上的演员我们都能一一分辨出来，不会把高富帅弄混淆，是因为他们化的妆、穿的服饰都不一样，这就相当于我们程序里vtkActor的不同属性(vtkProperty)；台下观众的眼睛可以看作是vtkCamera，前排的观众因为离得近，看台上演员会显得比较高大，而后排的观众看到的会显得小点，每个观众看到的东西在他的世界里都是唯一的，所以渲染场景Renderer里的vtkCamera对象也是只有一个；舞台上的灯光可以有多个，所以渲染场景里的vtkLight也存在多个。</p>
-<h3 id="面绘制"><a href="#面绘制" class="headerlink" title="面绘制"></a>面绘制</h3><h4 id="MC算法"><a href="#MC算法" class="headerlink" title="MC算法"></a>MC算法</h4><p><img src="https://qiniu.snorlax.top/blog/posts/医学三维重建/面绘制.png" alt></p>
-<ul>
-<li><a href="https://github.com/SnorlaxSE/Medical-Image-3D-Reconstruction" target="_blank" rel="noopener">SnorlaxSE/Medical-Image-3D-Reconstruction</a></li>
-</ul>
-<p>i.   假定原始数据是离散的三维空间规则数据场，(断层扫描仪CT及核磁共振仪MRI产生的图像均属于这一类型)，读取这些数据，可得出这些数据的三个维度；  -&gt; 数据导入<br>ii.  以体元为单位来寻找三维图像中内容部分与背景部分的边界，在体元抽取三角片来拟合这个边界；  -&gt; 等值面提取<br>iii. 遍历所有的体元，找出其中的三角片最后集合起来组成图像中实点表面的三角网格（Mesh）；  -&gt; 数据处理：等值面拼接、几何图元（顶点、线段、面片）数据映射<br>iv.  建立好了三角形网格模型，对该模型进行渲染；  -&gt; 模型渲染（面绘制为几何渲染）：颜色、光照 显示效果<br>v.   模型交互  -&gt; 旋转、缩放</p>
-<h3 id="体绘制"><a href="#体绘制" class="headerlink" title="体绘制"></a>体绘制</h3><p>1）体绘制：体绘制是将三维空间的离散数据直接转换为最后的立体，图像而<code>不必生成中间几何图元</code>(面绘制需要), 其中心思想是为<code>每一个体素指定一个不透明度,并考虑每一个体素对光线的透射、发射和反射作用</code>。<br>2）体绘制达到的效果：体绘制的目标是在一副图片上展示空间体细节。举例而言，你面前有一间房子，房子中有家具、家电，站在房子外面只能看到外部形状(类似于面绘制的效果)，无法观察到房子的布局或者房子中的物体；假设房子和房子中的物体都是半透明的，这样你就可以同时查看到所有的细节。这就是体绘制所要达到的效果。<br>3）体绘制常用的算法：光线投射算法（ Ray-casting ）、错切 - 变形算法（ Shear-warp ）、频域体绘制算法（ Frequency Domain ）和抛雪球算法（ Splatting ）。其中又以光线投射算法最为重要和通用。</p>
-<h4 id="Ray-casting算法"><a href="#Ray-casting算法" class="headerlink" title="Ray-casting算法"></a>Ray-casting算法</h4><p><img src="https://qiniu.snorlax.top/blog/posts/医学三维重建/体绘制.png" alt></p>
-<p>　　光线投射算法（ Ray-casting ）原理：<span style="border-bottom:2px dashed yellow;">从图像平面的每个像素都沿着视线方向发出一条射线，此射线穿过体数据集，按一定步长进行采样，由内插计算每个采样点的颜色值和不透明度，然后由前向后或由后向前逐点计算累计的颜色值和不透明度值，直至光线完全被吸收或穿过物体</span>。该方法能很好地<code>反映物质边界的变化</code>，<span style="border-bottom:2px dashed pink;">使用Phong模型，引入镜面反射、漫反射和环境反射能得到很好的光照效果</span>，在医学上可<code>将各组织器官的性质属性、形状特征及相互之间的层次关系表现出来</code>，从而<code>丰富图像的信息</code>。</p>
-<h3 id="异同比较"><a href="#异同比较" class="headerlink" title="异同比较"></a>异同比较</h3><p>　　体绘制的原理和面绘制完全不相同。面绘制需要生成中间图元，而体绘制则是直接在原图上进行绘制，内容需求较面绘制小。每切换一个视角需要重新对所有的像素点进行颜色和透明度计算，需要时间比面绘制长。</p>
-<p><img src="https://img2018.cnblogs.com/blog/1179840/201905/1179840-20190508105013752-1155935313.png" alt><br>　　<br>　　几何渲染管线和体绘制渲染管线对比，如上图所示；体绘制渲染线和几何渲染线的组成是比较一致的，不同在于：几何渲染，通常使用vtkActor来渲染几何图形数据；体绘制则使用vtkVolume渲染数据；<span style="border-bottom:2px dashed yellow;">在几何渲染中，通常采用vtkPolyDataMapper实现输入数据向图元的转换</span>，<span style="border-bottom:2px dashed pink;">在体绘制中，则采用vtkVolumeRayCastMapper</span>，这是与体绘制算法有关的，不同的体绘制算法会有不同的Mapper类。</p>
+          <header class="entry-header">
+            <h1 class="entry-title"></h1>
+            <p class="entry-census">&nbsp;·&nbsp;2020-6-18&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -520,36 +483,19 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/06/18/example/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                </h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2020/06/07/以荒之名/" rel="next">
+            <a href="/2020/06/08/医学三维重建/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://5b0988e595225.cdn.sohucs.com/images/20180802/70d50059a4194e8cb93103283fe17f46.jpeg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://5b0988e595225.cdn.sohucs.com/images/20180802/70d50059a4194e8cb93103283fe17f46.jpeg">
+                <img class="lazyload" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://vthumb.ykimg.com/054104085A71A1CD00000114C9036154" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://vthumb.ykimg.com/054104085A71A1CD00000114C9036154">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                以荒之名</h3>
+                医学三维重建</h3>
                 <hr>
               </div>
             </a>
@@ -557,18 +503,32 @@
         
       </section>
       
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "DfaiFARwjtYUsdzLvHCfQX2y-gzGzoHsz",
+        appKey: "gdyMHnd6KbdXcdMYsfopidnJ",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="https://qiniu.snorlax.top/img/custom/avatar.jpg" itemprop="image" alt="SnorlaxSE" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="" itemprop="url" rel="author">SnorlaxSE</a>
+            <a href="" itemprop="url" rel="author"></a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>元气满满的卡比兽</p>
+        <p><i class="iconfont icon-write"></i></p>
       </section>
     </main><!-- #main -->
   </div><!-- #primary -->
