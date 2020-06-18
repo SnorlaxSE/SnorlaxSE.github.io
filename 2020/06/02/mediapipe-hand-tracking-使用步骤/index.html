@@ -477,7 +477,15 @@
           <a id="more"></a>
 <p><img src="https://pic1.zhimg.com/80/v2-3f8c9148cc79f5b015d843e56dd0fe61_1440w.jpg" alt></p>
 <ul>
-<li>blog：<a href="https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html" target="_blank" rel="noopener">https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html</a></li>
+<li>blog：<a href="https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html" target="_blank" rel="noopener">Face and hand tracking in the browser with MediaPipe and TensorFlow.js</a></li>
+<li>博客：<a href="https://www.infoq.cn/article/Ll2aq2vXAeN71APajyVr" target="_blank" rel="noopener">谷歌 TensorFlow 团队和 MediaPipe 联合推出两款软件包，可对面部和手部特征进行跟踪</a></li>
+</ul>
+<p><center><img src="https://3.bp.blogspot.com/-CWTYSEEB3mA/XmfimK9wP1I/AAAAAAAAC0E/wIvHQktx8IEbeB_vbtIEZt3VFNayIFzRACLcBGAsYHQ/s1600/hand_trimmed.gif"></center></p>
+<ul>
+<li>blog：<a href="https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html" target="_blank" rel="noopener">On-Device, Real-Time Hand Tracking with MediaPipe</a></li>
+</ul>
+<p><center><img src="https://1.bp.blogspot.com/-BooP33BdTU8/XVrS_WZTcOI/AAAAAAAAEiA/lwdXuwhYd1U2btKNeOf0Qi9-R0tMmSILACEwYBhgL/s400/image7.gif"></center></p>
+<ul>
 <li>Web Demo：<a href="https://storage.googleapis.com/tfjs-models/demos/handpose/index.html" target="_blank" rel="noopener">https://storage.googleapis.com/tfjs-models/demos/handpose/index.html</a></li>
 </ul>
 <h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul>
@@ -485,6 +493,7 @@
 <li><a href="https://github.com/google/mediapipe/blob/master/mediapipe/docs/hand_tracking_mobile_gpu.md" target="_blank" rel="noopener">hand_tracking_mobile_gpu.md</a></li>
 <li><a href="https://github.com/google/mediapipe/blob/master/mediapipe/docs/multi_hand_tracking_mobile_gpu.md" target="_blank" rel="noopener">multi_hand_tracking_mobile_gpu.md</a></li>
 <li><a href="https://mediapipe.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">MediaPipe</a></li>
+<li><a href="https://github.com/tensorflow/tfjs-models" target="_blank" rel="noopener">tensorflow/tfjs-models</a></li>
 </ul>
 <h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><ul>
 <li>操作系统：macOS Catalina version 10.15.5</li>
@@ -545,7 +554,7 @@ cc_library(
 )
 </code></pre>
 <p>参考：<a href="https://github.com/google/mediapipe/issues/496" target="_blank" rel="noopener">OpenCV 2 headers not found on Arch Linux with OpenCV 4 #496</a></p>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Option-1-Running-on-CPU"><a href="#Option-1-Running-on-CPU" class="headerlink" title="Option 1: Running on CPU"></a>Option 1: Running on CPU</h3><h4 id="hand-tracking-cpu"><a href="#hand-tracking-cpu" class="headerlink" title="hand_tracking_cpu"></a>hand_tracking_cpu</h4><pre><code class="lang-shell">$ bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/hand_tracking:hand_tracking_cpu
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="Option-1-Running-on-CPU"><a href="#Option-1-Running-on-CPU" class="headerlink" title="Option 1: Running on CPU"></a>Option 1: Running on CPU</h3><h4 id="hand-tracking-cpu"><a href="#hand-tracking-cpu" class="headerlink" title="hand_tracking_cpu"></a>hand_tracking_cpu</h4><pre><code class="lang-shell">$ bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/hand_tracking:hand_tracking_cpu
 # $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_desktop_live.pbtxt --input_video_path=&lt;input_video_path&gt;
 $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_desktop_live.pbtxt --input_video_path=/Users/snorlaxse/Desktop/multi-hand-demo.mp4 --output_video_path=/Users/snorlaxse/Desktop/multi-hand-demo-output.mp4
 </code></pre>
@@ -561,7 +570,7 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/multi_hand_tracking/mu
 </code></pre>
 <p>不可用…</p>
 <h3 id="Option-2-Running-on-GPU"><a href="#Option-2-Running-on-GPU" class="headerlink" title="Option 2: Running on GPU"></a>Option 2: Running on GPU</h3><p>未尝试…</p>
-<h2 id="Custom"><a href="#Custom" class="headerlink" title="Custom"></a>Custom</h2><ul>
+<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><ul>
 <li><p><a href="https://github.com/google/mediapipe/issues/200" target="_blank" rel="noopener">Accessing landmarks, tracking multiple hands, and enabling depth on desktop #200</a></p>
 <p>  @JECBello For C++ desktop example, what you described is correct way to get result protos<br>  I have created an example for Object Detection desktop CPU of how to print out detection protos<br>  <a href="https://github.com/mgyong/mediapipe-issue200" target="_blank" rel="noopener">https://github.com/mgyong/mediapipe-issue200</a><br>  I copied the demo_run_graph_main.cc into demo_run_graph_main_out.cc</p>
 <p>  1、Created a listener for detection stream<br>  2、i polled the detection stream kDetectionsStream using Next() for the detection packet<br>  3、Load detection_packet into variable output_detections<br>  4、In my case, the output of the packet is of type std::vector&lt;::mediapipe::Detection&gt;. In your case, it should be landmark proto</p>
