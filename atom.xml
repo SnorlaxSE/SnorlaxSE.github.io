@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://snorlax.top/"/>
-  <updated>2020-06-10T06:47:56.047Z</updated>
+  <updated>2020-06-22T01:42:33.943Z</updated>
   <id>http://snorlax.top/</id>
   
   <author>
@@ -15,6 +15,130 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win10-Ubuntu18-04</title>
+    <link href="http://snorlax.top/2020/06/22/Win10-Ubuntu18-04/"/>
+    <id>http://snorlax.top/2020/06/22/Win10-Ubuntu18-04/</id>
+    <published>2020-06-22T01:30:13.000Z</published>
+    <updated>2020-06-22T01:42:33.943Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;双系统&quot;&gt;&lt;a href=&quot;#双系统&quot; class=&quot;headerlink&quot; title=&quot;双系统&quot;&gt;&lt;/a&gt;双系统&lt;/h2&gt;&lt;h3 id=&quot;Windows10-安装&quot;&gt;&lt;a href=&quot;#Windows10-安装&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>诗词歌赋</title>
+    <link href="http://snorlax.top/2020/06/21/%E8%AF%97%E8%AF%8D%E6%AD%8C%E8%B5%8B/"/>
+    <id>http://snorlax.top/2020/06/21/诗词歌赋/</id>
+    <published>2020-06-21T02:59:30.000Z</published>
+    <updated>2020-06-22T01:35:07.541Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>弱水三千</title>
+    <link href="http://snorlax.top/2020/06/21/%E5%BC%B1%E6%B0%B4%E4%B8%89%E5%8D%83/"/>
+    <id>http://snorlax.top/2020/06/21/弱水三千/</id>
+    <published>2020-06-21T02:42:43.000Z</published>
+    <updated>2020-06-21T02:49:04.686Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Promise&quot;&gt;&lt;a href=&quot;#Promise&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="语录" scheme="http://snorlax.top/categories/%E8%AF%AD%E5%BD%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>励志 BOY</title>
+    <link href="http://snorlax.top/2020/06/19/%E5%8A%B1%E5%BF%97BOY/"/>
+    <id>http://snorlax.top/2020/06/19/励志BOY/</id>
+    <published>2020-06-19T11:30:58.000Z</published>
+    <updated>2020-06-19T11:34:27.012Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="语录" scheme="http://snorlax.top/categories/%E8%AF%AD%E5%BD%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>国士无双</title>
+    <link href="http://snorlax.top/2020/06/19/%E5%9B%BD%E5%A3%AB%E6%97%A0%E5%8F%8C/"/>
+    <id>http://snorlax.top/2020/06/19/国士无双/</id>
+    <published>2020-06-19T04:58:40.000Z</published>
+    <updated>2020-06-19T11:52:15.833Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;封建王朝&quot;&gt;&lt;a href=&quot;#封建王朝&quot; class=&quot;headerlink&quot; title=&quot;封建王朝&quot;&gt;&lt;/a&gt;封建王朝&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;天子守国门 君王死社稷&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="语录" scheme="http://snorlax.top/categories/%E8%AF%AD%E5%BD%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>医学三维重建</title>
@@ -72,7 +196,7 @@
     <link href="http://snorlax.top/2020/06/02/mediapipe-hand-tracking-%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4/"/>
     <id>http://snorlax.top/2020/06/02/mediapipe-hand-tracking-使用步骤/</id>
     <published>2020-06-02T09:17:33.000Z</published>
-    <updated>2020-06-18T01:49:50.750Z</updated>
+    <updated>2020-06-19T16:06:57.693Z</updated>
     
     <summary type="html">
     
@@ -405,80 +529,6 @@
     
     
       <category term="blog" scheme="http://snorlax.top/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="http://snorlax.top/2020/05/15/Hexo-Theme-Sakura/"/>
-    <id>http://snorlax.top/2020/05/15/Hexo-Theme-Sakura/</id>
-    <published>2020-05-15T05:16:01.000Z</published>
-    <updated>2020-06-03T13:10:24.867Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Github</title>
-    <link href="http://snorlax.top/2020/05/15/hexo-Github/"/>
-    <id>http://snorlax.top/2020/05/15/hexo-Github/</id>
-    <published>2020-05-14T17:00:45.000Z</published>
-    <updated>2020-06-01T03:17:38.271Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;图片路径问题&quot;&gt;&lt;a href=&quot;#图片路径问题&quot; class=&quot;headerlink&quot; title=&quot;图片路径问题&quot;&gt;&lt;/a&gt;图片路径问题&lt;/h3&gt;&lt;p&gt;a.
-        
-      
-    
-    </summary>
-    
-      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello world</title>
-    <link href="http://snorlax.top/2020/05/15/hello-world/"/>
-    <id>http://snorlax.top/2020/05/15/hello-world/</id>
-    <published>2020-05-14T16:08:56.000Z</published>
-    <updated>2020-06-16T08:55:02.370Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="教程" scheme="http://snorlax.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-      <category term="hexo" scheme="http://snorlax.top/tags/hexo/"/>
     
   </entry>
   

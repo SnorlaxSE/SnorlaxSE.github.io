@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://snorlax.top/2020/06/22/Win10-Ubuntu18-04/</loc>
+    
+    <lastmod>2020-06-22T01:42:33.943Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/06/21/%E8%AF%97%E8%AF%8D%E6%AD%8C%E8%B5%8B/</loc>
+    
+    <lastmod>2020-06-22T01:35:07.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/06/21/%E5%BC%B1%E6%B0%B4%E4%B8%89%E5%8D%83/</loc>
+    
+    <lastmod>2020-06-21T02:49:04.686Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://snorlax.top/2020/06/02/mediapipe-hand-tracking-%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4/</loc>
     
-    <lastmod>2020-06-18T01:49:50.750Z</lastmod>
+    <lastmod>2020-06-19T16:06:57.693Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/06/19/%E5%9B%BD%E5%A3%AB%E6%97%A0%E5%8F%8C/</loc>
+    
+    <lastmod>2020-06-19T11:52:15.833Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/06/19/%E5%8A%B1%E5%BF%97BOY/</loc>
+    
+    <lastmod>2020-06-19T11:34:27.012Z</lastmod>
     
   </url>
   
@@ -79,14 +114,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/2020/05/24/MacBook-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
-    
-    <lastmod>2020-06-01T03:17:38.271Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
+    <loc>http://snorlax.top/2020/05/15/hexo-Github/</loc>
     
     <lastmod>2020-06-01T03:17:38.271Z</lastmod>
     
@@ -114,14 +142,21 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/2020/05/15/hexo-Github/</loc>
+    <loc>http://snorlax.top/2020/05/18/Keras%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8A%A5%E9%94%99/</loc>
     
     <lastmod>2020-06-01T03:17:38.271Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://snorlax.top/2020/05/18/Keras%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8A%A5%E9%94%99/</loc>
+    <loc>http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
+    
+    <lastmod>2020-06-01T03:17:38.271Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/05/24/MacBook-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
     
     <lastmod>2020-06-01T03:17:38.271Z</lastmod>
     
@@ -170,7 +205,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/rss/index.html</loc>
+    <loc>http://snorlax.top/bangumi/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -184,28 +219,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/about/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/theme-sakura/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/bangumi/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/video/index.html</loc>
+    <loc>http://snorlax.top/rss/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -219,6 +233,27 @@
   </url>
   
   <url>
+    <loc>http://snorlax.top/tags/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/theme-sakura/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/video/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://snorlax.top/client/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
@@ -226,14 +261,14 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/donate/index.html</loc>
+    <loc>http://snorlax.top/about/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://snorlax.top/tags/index.html</loc>
+    <loc>http://snorlax.top/donate/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     

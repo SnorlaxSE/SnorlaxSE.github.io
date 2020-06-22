@@ -8,7 +8,7 @@
     
         <title itemprop="name">
             
-                Category: 教程 |
+                Win10-Ubuntu18-04 |
                     
                         SnorlaxSE Blog
         </title>
@@ -438,501 +438,451 @@
         </div>
     </div>
 </header>
-                        
+                        <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-  <div class="pattern-attachment-img">
-    <img data-src="https://cdn.jsdelivr.net/gh/SnorlaxSE/cdn@1.4/img/banner/about.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://qiniu.snorlax.top/blog/posts/Win10-Ubuntu18-04/cover.jpg);" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://qiniu.snorlax.top/blog/posts/Win10-Ubuntu18-04/cover.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Win10-Ubuntu18-04</h1>
+      <p class="entry-census">
+        <span>
+          <a href="">
+            <img src="https://qiniu.snorlax.top/img/custom/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="">SnorlaxSE</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-6-22<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
   </div>
-  <header class="pattern-header ">
-    <h1 class="cat-title">教程</h1>
-    <span class="cat-des">
-      <p>Tutorial</p>
-    </span>
-  </header>
-</div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <a id="more"></a>
+<h2 id="双系统"><a href="#双系统" class="headerlink" title="双系统"></a>双系统</h2><h3 id="Windows10-安装"><a href="#Windows10-安装" class="headerlink" title="Windows10 安装"></a>Windows10 安装</h3><ul>
+<li>选择最新版本的多版本（家庭版\企业版\专业版）镜像烧录启动盘</li>
+</ul>
+<h3 id="Ubuntu18-04-安装"><a href="#Ubuntu18-04-安装" class="headerlink" title="Ubuntu18.04 安装"></a>Ubuntu18.04 安装</h3><ul>
+<li>安装前，于win10系统 「此电脑（右键） - 管理 - 存储/磁盘管理」对欲安装Ubuntu系统的磁盘分区进行压缩卷操作</li>
+<li>使用UltraISO烧录镜像时，需选择便携启动</li>
+<li>使用启动盘安装过程，前期无脑Continue；直至选择安装类型（方式），选底部「else something」<ul>
+<li>固态硬盘<ul>
+<li>/ 根目录：32768MB(32G)  主分区（划重点）</li>
+<li>swap：32768MB(32G)  逻辑分区</li>
+<li>EFI：1024MB(1G) 逻辑分区</li>
+</ul>
+</li>
+<li>机械硬盘<ul>
+<li>/home：976GB 逻辑分区  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>（划重点）若开机欲由Ubuntu引导，须选用EFI所在盘符作为loader；若需由Windows引导boot，选「Win Boot Manager」所在盘符作为loader<ul>
+<li>若重启时，默认为Windows自启，无Ubuntu引导，使用EasyBCD添加开机引导项</li>
+</ul>
+</li>
+<li>强烈推荐：换中科大或清华源、<a href="https://blog.csdn.net/abcwoabcwo/article/details/79658605" target="_blank" rel="noopener">禁止/取消Ubuntu系统自动更新</a>、<a href="https://blog.csdn.net/lambert310/article/details/52412059" target="_blank" rel="noopener">pip换源</a></li>
+<li>保留<code>/home</code>数据重装Linux系统，参考：<a href="https://gefangshuai.wordpress.com/2012/12/24/%E9%87%8D%E8%A3%85linux%E4%B9%9F%E4%B8%8D%E7%94%A8%E9%87%8D%E6%96%B0%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">重装Linux也不用重新配置的方法</a>.<ul>
+<li>一定不要格式化<code>/home</code></li>
+<li>新系统的用户名与原先保持一致</li>
+</ul>
+</li>
+</ul>
+<h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3><p>装机BUG，「推倒重来」是最优解    </p>
+<h2 id="Ubuntu-深度学习环境配置"><a href="#Ubuntu-深度学习环境配置" class="headerlink" title="Ubuntu 深度学习环境配置"></a>Ubuntu 深度学习环境配置</h2><p><a href="https://blog.csdn.net/u013066730/article/details/80980940" target="_blank" rel="noopener">nvidia驱动，cuda，cudnn关系</a></p>
+<h3 id="NVIDIA驱动安装"><a href="#NVIDIA驱动安装" class="headerlink" title="NVIDIA驱动安装"></a>NVIDIA驱动安装</h3><p>参考：<a href="https://blog.csdn.net/wf19930209/article/details/81877822" target="_blank" rel="noopener">Linux安装NVIDIA显卡驱动的正确姿势</a>、<a href="https://blog.csdn.net/tjuyanming/article/details/80862290" target="_blank" rel="noopener">Ubuntu 18.04 NVIDIA驱动安装总结</a></p>
+<p>Ubuntu16.04可用：<a href="https://blog.csdn.net/hunzhangzui9837/article/details/88566669" target="_blank" rel="noopener">ubuntu16.04 NVIDIA显卡驱动快速重装</a>、<a href="https://blog.csdn.net/mtllyb/article/details/79505012" target="_blank" rel="noopener">Ubuntu16.04安装NVIDIA驱动</a></p>
+<p><strong>切记：不要在有图形界面的状态，自动安装显卡驱动</strong></p>
+<p>NVIDIA 驱动程序下载：<a href="https://www.nvidia.cn/Download/index.aspx?lang=cn" target="_blank" rel="noopener">https://www.nvidia.cn/Download/index.aspx?lang=cn</a></p>
+<ul>
+<li><p>禁用nouveau</p>
+<pre><code class="lang-shell">  1. 编辑黑名单配置文件 `$ sudo gedit /etc/modprobe.d/blacklist.conf`
+  2. 文件末添加
+      `blacklist nouveau`
+      `options nouveau modeset=0`
+  3. 更新initramfs   `$ sudo update-initramfs -u`
+  4. 重启            `$ reboot`
+  5. 重启后执行 `$ lsmod | grep nouveau` （无输出即可）
+</code></pre>
+</li>
+<li><p>将<code>ppa:graphics-drivers/ppa</code>存储库添加到系统中</p>
+<pre><code class="lang-shell">  $ sudo add-apt-repository ppa:graphics-drivers/ppa
+  $ sudo apt update # recommended: then run `sudo apt upgrade`
+</code></pre>
+</li>
+<li><p>识别显卡模型和推荐的驱动程序</p>
+<pre><code class="lang-shell">  $ ubuntu-drivers devices
+</code></pre>
+</li>
+<li><p>卸载所有安装的nvidia驱动<br>  如果之前没安装过nvidia驱动，也可以不执行此步骤，但是推荐执行，无害</p>
+<pre><code class="lang-shell">  $ sudo apt-get --purge remove   nvidia-*
+</code></pre>
+<p>  卸载完以后，重启</p>
+</li>
+<li><p>自动安装</p>
+<pre><code class="lang-shell">  $ sudo ubuntu-drivers autoinstall
+</code></pre>
+</li>
+<li><p>安装成功后重启</p>
+<ul>
+<li><p>若是UEFI启动，关闭Secure Boot（划重点!!!）</p>
+<pre><code class="lang-shell"># 验证NVIDIA驱动是否安装成功
+$ nvidia-smi    #输入指令查看显卡信息 
+$ nvidia-settings   #显卡设置
+$ cat /proc/driver/nvidia/version 查看nvidia驱动的版本（版本418.56）
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><h5 id="结束X-window服务"><a href="#结束X-window服务" class="headerlink" title="结束X-window服务"></a>结束X-window服务</h5><pre><code>KUbuntu : sudo /etc/init.d kdm stop
+
+Ubuntu : sudo /etc/init.d/gdm3 stop
+
+Ubuntu(&gt;11.10) : sudo /etc/init.d lightdm stop  或sudo service lightdm stop
+
+或者 $ sudo telinit 3    # 停止可视化桌面
+</code></pre><p>按Ctrl + Alt + F1 进入tty1控制台</p>
+<h5 id="重启X-window"><a href="#重启X-window" class="headerlink" title="重启X-window"></a>重启X-window</h5><pre><code>KUbuntu : sudo /etc/init.d kdm restart
+
+Ubuntu : sudo /etc/init.d gdm restart
+
+Ubuntu(&gt;11.10) : sudo start lightdm 或 sudo service lightdm start
+</code></pre><p> 按Ctrl + Alt + F7返回tty7图形界面   </p>
+<h3 id="CUDA"><a href="#CUDA" class="headerlink" title="CUDA"></a>CUDA</h3><p>参考：<a href="https://blog.csdn.net/m0_37924639/article/details/78785699" target="_blank" rel="noopener">Linux下CUDA+CUDNN+TensorFlow安装笔记</a>、<a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu-installation" target="_blank" rel="noopener">NVIDIA CUDA Installation Guide for Linux</a>、<a href="https://blog.csdn.net/qq997843911/article/details/85039021" target="_blank" rel="noopener">ubuntu18.04 安装NVIDIA显卡驱动与 cuda10 环境</a><br>CUDA Toolkit Archive：<a href="https://developer.nvidia.com/cuda-toolkit-archive" target="_blank" rel="noopener">https://developer.nvidia.com/cuda-toolkit-archive</a></p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ol>
+<li><p>进入CUDA安装脚本所在的目录，执行以下命令：</p>
+<pre><code class="lang-shell"> $ sudo sh cuda_10.0.130_410.48_linux.run # sh 你的版本.run
+</code></pre>
+<ul>
+<li>会出现一段极长的协议，一直按空格键或Enter键到100%，最后输入accept表示同意，然后会选择是否安装nvidia驱动418，<strong>选择no</strong>（之前已安装过显卡驱动），遇到询问是否安装opengl的地方如果你是双显卡也务必<strong>选择不安装</strong>，其他同意或默认即可。</li>
+<li><code>Missing recommended library</code></li>
+<li><p>安装patch：</p>
+<pre><code>$ sudo sh cuda_10.0.130.1_linux.run 
+...
+$ sudo sh cuda_10.0.130.x_linux.run
+</code></pre></li>
+</ul>
+</li>
+<li><p>安装完成后需要将CUDA的路径加入环境变量，首先打开<code>~/.bashrc</code>文件，添加以下代码：</p>
+<pre><code class="lang-shell"> #注意，根据自己的版本，修改cuda-10.0...
+ export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}}   
+ export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+</code></pre>
+</li>
+<li><p>打开<code>/etc/profile</code>，文末加上以下代码：</p>
+<pre><code class="lang-shell"> export PATH=/usr/local/cuda/bin:$PATH
+</code></pre>
+<pre><code class="lang-shell"> $ source /etc/profile
+ $ source ~/.bashrc
+</code></pre>
+</li>
+<li><p>安装第三方依赖（必须项）</p>
+<pre><code class="lang-shell"> $ sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
+</code></pre>
+<p> 注：若无必要的依赖，无法顺利进行下方测试make步骤</p>
+</li>
+</ol>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><pre><code class="lang-shell">$ nvcc -V   #查看CUDA的版本
+</code></pre>
+<pre><code class="lang-shell"># run Sample 
+$ cd /usr/local/cuda/samples/2_Graphics/volumeRender
+$ sudo make  
+$ ./volumeRender
+</code></pre>
+<h4 id="多版本-cuda-安装"><a href="#多版本-cuda-安装" class="headerlink" title="多版本 cuda 安装"></a>多版本 cuda 安装</h4><p><a href="https://blog.csdn.net/Maple2014/article/details/78574275" target="_blank" rel="noopener">安装多版本 cuda, 多版本之间切换</a>、<a href="https://blog.csdn.net/u010801439/article/details/80483036" target="_blank" rel="noopener">真实机下 ubuntu 18.04 安装GPU +CUDA+cuDNN 以及其版本选择（亲测非常实用）</a></p>
+<h3 id="cuDNN-安装"><a href="#cuDNN-安装" class="headerlink" title="cuDNN 安装"></a>cuDNN 安装</h3><p>参考：<a href="https://blog.csdn.net/m0_37924639/article/details/78785699" target="_blank" rel="noopener">Linux下CUDA+CUDNN+TensorFlow安装笔记</a>、<a href="https://blog.csdn.net/qq_32408773/article/details/84112166" target="_blank" rel="noopener">Ubuntu18.04安装CUDA10、CUDNN</a><br>cuDNN Download：<a href="https://developer.nvidia.com/rdp/cudnn-download" target="_blank" rel="noopener">https://developer.nvidia.com/rdp/cudnn-download</a></p>
+<p>下载<code>cuDNN Runtime Library for Ubuntu18.04 (Deb)</code>、<code>cuDNN Developer Library for Ubuntu18.04 (Deb)</code>、<code>cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)</code>，进入CUDNN安装包所在目录，执行以下命令：</p>
+<pre><code class="lang-shell">$ sudo dpkg -i runtime包.deb
+$ sudo dpkg -i developer包.deb
+$ sudo dpkg -i 代码sample包.deb
+</code></pre>
+<p>至此，CUDNN安装完成</p>
+<hr>
+<p>下载<code>cuDNN Library for Linux</code>完成后解压：</p>
+<pre><code class="lang-shell">$ sudo tar -xvzf cudnn-10.0-linux-x64-v7.5.0.56.tgz
+</code></pre>
+<p>进入文件夹：</p>
+<pre><code class="lang-shell">$ sudo cp cuda/include/cudnn.h /usr/local/cuda-10.0/include/ 
+$ sudo cp cuda/lib64/libcudnn* /usr/local/cuda-10.0/lib64/ 
+$ sudo chmod a+r /usr/local/cuda-10.0/include/cudnn.h 
+$ sudo chmod a+r /usr/local/cuda-10.0/lib64/libcudnn*
+</code></pre>
+<p>在终端查看CUDNN版本：</p>
+<pre><code class="lang-shell">$ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+</code></pre>
+<p>参考：<a href="https://blog.csdn.net/weixin_40859436/article/details/83152249" target="_blank" rel="noopener">Ubuntu18.04+RTX2080+cuda10+tensorflow</a></p>
+<h2 id="Ubuntu-常用软件"><a href="#Ubuntu-常用软件" class="headerlink" title="Ubuntu 常用软件"></a>Ubuntu 常用软件</h2><h3 id="Chrome"><a href="#Chrome" class="headerlink" title="Chrome"></a><a href="https://blog.csdn.net/weixin_41887832/article/details/82079328" target="_blank" rel="noopener">Chrome</a></h3><ol>
+<li><p>将下载源添加到系统的源列表(添加依赖)：</p>
+<p><code>sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/</code></p>
+</li>
+<li><p>导入谷歌软件的公钥，用于对下载软件的验证：</p>
+<pre><code>wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+</code></pre></li>
+<li><p>用于对当前系统的可用更新列表进行更新(更新依赖)：</p>
+<pre><code>sudo apt-get update
+</code></pre></li>
+<li><p>谷歌Chrome浏览器(稳定版)的安装(安装软件)：</p>
+<pre><code>sudo apt-get install google-chrome-stable
+</code></pre></li>
+<li><p>启动谷歌Chrome浏览器：</p>
+<pre><code>/usr/bin/google-chrome-stable
+</code></pre></li>
+</ol>
+<h3 id="搜狗输入法"><a href="#搜狗输入法" class="headerlink" title="搜狗输入法"></a><a href="Ubuntu18.04下安装搜狗输入法">搜狗输入法</a></h3><ol>
+<li><p>安装Fcitx输入框架</p>
+<p><code>sudo apt install fcitx</code></p>
+</li>
+<li><p>下载 <a href="https://pinyin.sogou.com/linux/?r=pinyin" target="_blank" rel="noopener">搜狗输入法for Linux</a>，双击安装.deb</p>
+</li>
+<li><p>Setting → Region &amp; Language → Manage Installed Languages → Keyboard input method system：<code>fcitx</code>  → Apply System-Wide</p>
+</li>
+<li><p>系统菜单栏右上角出现⌨️图标，点击<code>Configure Current Input Method</code>，添加<code>Sogou Pinyin</code>，移至顶部</p>
+</li>
+</ol>
+<h3 id="TeamViewer"><a href="#TeamViewer" class="headerlink" title="TeamViewer"></a>TeamViewer</h3><ol>
+<li>下载*.deb package <a href="https://www.teamviewer.com/zhcn/download/linux/" target="_blank" rel="noopener">https://www.teamviewer.com/zhcn/download/linux/</a></li>
+<li><p>命令行安装</p>
+<pre><code class="lang-shell"> $ sudo dpkg -i teamviewer_14.2.8352_amd64.deb
+ $ sudo apt install -f  # 若提示缺少依赖，运行此命令
+</code></pre>
+</li>
+<li><p>启动teamviewer</p>
+<pre><code class="lang-shell"> $ teamviewer
+</code></pre>
+</li>
+</ol>
+<ul>
+<li><p>卸载teamviewer-host</p>
+<pre><code class="lang-shell">  $ sudo apt-get purge teamviewer-host
+</code></pre>
+</li>
+<li><p>卸载teamviewer</p>
+<pre><code class="lang-shell">  $ sudo apt-get purge teamviewer
+</code></pre>
+</li>
+<li><a href="https://www.teamviewer.com/en/download/previous-versions/" target="_blank" rel="noopener">TeamViewer 历史版本</a><h3 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h3></li>
+</ul>
+<p>参考链接：<a href="https://ywnz.com/linuxjc/2687.html" target="_blank" rel="noopener">Ubuntu 18.04 下安装shadowsocks</a></p>
+<p>1.下载所需工具</p>
+<pre><code class="lang-shell">sudo apt-get install python-pip
+sudo pip install shadowsocks
+</code></pre>
+<p>2.配置</p>
+<pre><code class="lang-shell">sudo gedit /etc/shadowsocks.json
+</code></pre>
+<pre><code class="lang-shell">{
+    &quot;server&quot;:&quot;xxxxxxxxxx&quot;,
+    &quot;server_port&quot;:xxxx,
+    &quot;local_address&quot;: &quot;127.0.0.1&quot;,
+    &quot;local_port&quot;:1080,
+    &quot;password&quot;:&quot;xxxxxxxx&quot;,
+    &quot;timeout&quot;:520,
+    &quot;method&quot;:&quot;aes-256-cfb&quot;
+}
+</code></pre>
+<p>3.启动</p>
+<pre><code class="lang-shell">sudo sslocal -c /etc/shadowsocks.json
+# 教程：sudo sslocal -c /etc/shadowsocks.json -d start
+</code></pre>
+<p>4.系统配置</p>
+<pre><code class="lang-shell">Socks 主机： 127.0.0.1 1080  # Firefox 同理配置即可
+</code></pre>
+<p>启动后，等待十分钟左右，方正常工作</p>
+<h3 id="VSCODE"><a href="#VSCODE" class="headerlink" title="VSCODE"></a>VSCODE</h3><p>Download Visual Studio Code: <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">https://code.visualstudio.com/download</a></p>
+<h3 id="PyCharm"><a href="#PyCharm" class="headerlink" title="PyCharm"></a>PyCharm</h3><p>Download PyCharm: <a href="https://www.jetbrains.com/pycharm/download/#section=linux" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/download/#section=linux</a></p>
+<p><strong>or</strong> </p>
+<pre><code class="lang-shell">sudo snap install [pycharm-professional|pycharm-community] --classic
+</code></pre>
+<h3 id="Typora-on-Linux"><a href="#Typora-on-Linux" class="headerlink" title="Typora on Linux"></a>Typora on Linux</h3><p>参考：<a href="https://support.typora.io/Typora-on-Linux/" target="_blank" rel="noopener">Install Typora on Linux</a></p>
+<pre><code class="lang-shell"># or use
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+
+# add Typora&#39;s repository
+sudo add-apt-repository &#39;deb https://typora.io/linux ./&#39;
+sudo apt-get update
+
+# install typora
+sudo apt-get install typora
+
+# upgrade all packages include Typora
+sudo apt-get upgrade
+</code></pre>
+<h3 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h3><p>ubuntu16.04 主题安装：<a href="https://blog.csdn.net/yato0514/article/details/78510363" target="_blank" rel="noopener">https://blog.csdn.net/yato0514/article/details/78510363</a></p>
+<p>【Ubuntu】Ubuntu16.04的主题和终端美化：<a href="https://blog.csdn.net/White_Idiot/article/details/78973575" target="_blank" rel="noopener">https://blog.csdn.net/White_Idiot/article/details/78973575</a></p>
+<p>Ubuntu16.04安装 oh-my-zsh：<a href="https://www.jianshu.com/p/4b4183ea452b" target="_blank" rel="noopener">https://www.jianshu.com/p/4b4183ea452b</a></p>
+<h3 id="Albert"><a href="#Albert" class="headerlink" title="Albert"></a>Albert</h3><p>Download: <a href="https://software.opensuse.org/download.html?project=home:manuelschneid3r&amp;package=albert" target="_blank" rel="noopener">https://software.opensuse.org/download.html?project=home:manuelschneid3r&amp;package=albert</a></p>
+<p>click the ‘Albert’ app ➜ setting ➜ 设置 <code>Hotkey</code> 、Theme: <code>Yosemite</code>、勾选Extensions服务</p>
+<h3 id="Ananconda3"><a href="#Ananconda3" class="headerlink" title="Ananconda3"></a>Ananconda3</h3><p>1.官网下载安装包<br>2.命令行安装</p>
+<pre><code class="lang-shell">$ bash Ananconda3-2019.03-Linux-x86_64.sh
+</code></pre>
+<ul>
+<li>Details as follow：</li>
+</ul>
+<pre><code class="lang-shell">...
+Do you accept the license terms? [yes|no]
+[no] &gt;&gt;&gt; yes
+...
+</code></pre>
+<pre><code>...
+Anaconda3 will now be installed into this location:
+/home/captain/anaconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/captain/anaconda3] &gt;&gt;&gt; 
+PREFIX=/home/captain/anaconda3
+...
+</code></pre><pre><code>...
+installation finished.
+Do you wish the installer to initialize Anaconda3
+by running conda init? [yes|no]
+[no] &gt;&gt;&gt; yes
+...
+</code></pre><ul>
+<li>Note About “conda init” ( the command line add the code fragment in <code>~/.bashrc</code> )</li>
+</ul>
+<pre><code class="lang-shell"># &gt;&gt;&gt; conda initialize &gt;&gt;&gt;
+# !! Contents within this block are managed by &#39;conda init&#39; !!
+__conda_setup=&quot;$(&#39;/home/captain/anaconda3/bin/conda&#39; &#39;shell.bash&#39; &#39;hook&#39; 2&gt; /dev/null)&quot;
+if [ $? -eq 0 ]; then
+    eval &quot;$__conda_setup&quot;
+else
+    if [ -f &quot;/home/captain/anaconda3/etc/profile.d/conda.sh&quot; ]; then
+        . &quot;/home/captain/anaconda3/etc/profile.d/conda.sh&quot;
+    else
+        export PATH=&quot;/home/captain/anaconda3/bin:$PATH&quot;
+    fi
+fi
+unset __conda_setup
+# &lt;&lt;&lt; conda initialize &lt;&lt;&lt;
+</code></pre>
+<p>3.设置环境变量</p>
+<pre><code class="lang-shell">$ sudo gedit ~/.bashrc
+</code></pre>
+<pre><code class="lang-shell"># Anaconda3
+export PATH=&quot;/home/captain/anaconda3/bin:$PATH&quot;
+</code></pre>
+<pre><code class="lang-shell">$ source ~/.bashrc
+</code></pre>
+<p>4.创建虚拟环境</p>
+<pre><code class="lang-shell">$ conda create -n pytorch python=3.6
+</code></pre>
+<pre><code class="lang-shell"># To activate this environment, use
+#
+#     $ conda activate pytorch
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+</code></pre>
+<h4 id="pytorch-—Downgrade"><a href="#pytorch-—Downgrade" class="headerlink" title="pytorch —Downgrade"></a>pytorch —Downgrade</h4><ul>
+<li>建议新建虚拟环境</li>
+</ul>
+<pre><code class="lang-shell">$ conda create -n pytorch0.3 python=3.6
+</code></pre>
+<ul>
+<li>Install torch==0.3.1</li>
+</ul>
+<pre><code class="lang-shell">$ pip install --upgrade pip
+$ pip install torch==0.3.1
+</code></pre>
+<h2 id="Ubuntu-系统操作"><a href="#Ubuntu-系统操作" class="headerlink" title="Ubuntu 系统操作"></a>Ubuntu 系统操作</h2><h3 id="Ubuntu16-04-开放端口"><a href="#Ubuntu16-04-开放端口" class="headerlink" title="Ubuntu16.04 开放端口"></a>Ubuntu16.04 开放端口</h3><p><a href="https://blog.csdn.net/justheretobe/article/details/51843178" target="_blank" rel="noopener"><strong>ubuntu的ufw如何开放特定端口?</strong></a></p>
+<pre><code>ubuntu16.04默认没有安装ssh，需要安装：
+1.sudo apt-get install openssh-server //安装命令
+2、ps -ef|grep ssh                            //查看启动ssh没有
+3、重启SSH服务：
+sudo /etc/init.d/ssh stop
+sudo /etc/init.d/ssh start
+4、客户端命令行登陆：ssh username@192.168.1.112 
+5、ssh配置文件位于/ etc/ssh/sshd_config，默认端口是22，你可以自己定义成其他端口号；
+</code></pre>
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://qiniu.snorlax.top/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://qiniu.snorlax.top/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/06/21/诗词歌赋/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://qiniu.snorlax.top/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://qiniu.snorlax.top/blog/posts/%E8%AF%97%E8%AF%8D%E6%AD%8C%E8%B5%8B/cover.jpeg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://qiniu.snorlax.top/blog/posts/%E8%AF%97%E8%AF%8D%E6%AD%8C%E8%B5%8B/cover.jpeg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                诗词歌赋</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/06/22/Win10-Ubuntu18-04/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="https://qiniu.snorlax.top/img/custom/avatar.jpg" itemprop="image" alt="SnorlaxSE" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author">SnorlaxSE</a>
+            </h3>
+          </div>
         </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/Win10-Ubuntu18-04/cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/06/22/Win10-Ubuntu18-04/">
-    Win10-Ubuntu18-04</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-6-22</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/06/22/Win10-Ubuntu18-04/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/mediapipe-hand-tracking-使用步骤/cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-    mediapipe-hand-tracking-Usage</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-6-2</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/20/华为云ECS主机/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/scenery/6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/20/华为云ECS主机/">
-    华为云ECS主机</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-20</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/20/华为云ECS主机/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/18/七牛云图床同步/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/anime/3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/18/七牛云图床同步/">
-    七牛云图床同步</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-18</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/18/七牛云图床同步/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/Hexo-Theme-Sakura/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/ins/6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/Hexo-Theme-Sakura/">
-    Hexo-Theme-Sakura</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    hexo-sakura主题使用教程</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/Hexo-Theme-Sakura/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/hexo-Github/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/hexo-Github/hexo+Github.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/hexo-Github/">
-    Hexo-Github</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/hexo-Github/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/hello-world/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/scenery/8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/hello-world/">
-    Hello world</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/hello-world/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-
-
-      <div class="clearer">
-      </div>
-    </main>
-    <!--  -->
-    
-  </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>元气满满的卡比兽</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
 
-<!-- 
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/06/22/Win10-Ubuntu18-04/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/Win10-Ubuntu18-04/cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/06/22/Win10-Ubuntu18-04/">
-    Win10-Ubuntu18-04</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-6-22</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/06/22/Win10-Ubuntu18-04/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/mediapipe-hand-tracking-使用步骤/cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-    mediapipe-hand-tracking-Usage</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-6-2</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/06/02/mediapipe-hand-tracking-使用步骤/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/20/华为云ECS主机/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/scenery/6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/20/华为云ECS主机/">
-    华为云ECS主机</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-20</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/20/华为云ECS主机/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/18/七牛云图床同步/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/anime/3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/18/七牛云图床同步/">
-    七牛云图床同步</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-18</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/18/七牛云图床同步/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/Hexo-Theme-Sakura/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/ins/6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/Hexo-Theme-Sakura/">
-    Hexo-Theme-Sakura</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    hexo-sakura主题使用教程</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/Hexo-Theme-Sakura/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/hexo-Github/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/blog/posts/hexo-Github/hexo+Github.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/hexo-Github/">
-    Hexo-Github</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/hexo-Github/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2020/05/15/hello-world/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://qiniu.snorlax.top/img/scenery/8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2020/05/15/hello-world/">
-    Hello world</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2020-5-15</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2020/05/15/hello-world/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
 
- -->
+
                 </div>
                 <div class="ins-search">
     <div class="ins-search-mask"></div>
