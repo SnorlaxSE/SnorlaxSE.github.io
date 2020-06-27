@@ -149,13 +149,6 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/2020/05/15/Followers/</loc>
-    
-    <lastmod>2020-06-01T03:17:38.271Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://snorlax.top/2020/05/15/hexo-Github/</loc>
     
     <lastmod>2020-06-01T03:17:38.271Z</lastmod>
@@ -185,6 +178,13 @@
   
   <url>
     <loc>http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
+    
+    <lastmod>2020-06-01T03:17:38.271Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/2020/05/15/Followers/</loc>
     
     <lastmod>2020-06-01T03:17:38.271Z</lastmod>
     
@@ -233,6 +233,13 @@
   </url>
   
   <url>
+    <loc>http://snorlax.top/lab/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://snorlax.top/links/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
@@ -240,14 +247,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/comment/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/tags/index.html</loc>
+    <loc>http://snorlax.top/client/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -261,14 +261,14 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/theme-sakura/index.html</loc>
+    <loc>http://snorlax.top/tags/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://snorlax.top/about/index.html</loc>
+    <loc>http://snorlax.top/theme-sakura/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -282,13 +282,6 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/lab/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://snorlax.top/donate/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
@@ -296,7 +289,14 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/client/index.html</loc>
+    <loc>http://snorlax.top/about/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/comment/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
