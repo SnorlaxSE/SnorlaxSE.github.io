@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://snorlax.top/"/>
-  <updated>2020-06-24T17:08:49.787Z</updated>
+  <updated>2020-06-29T15:35:42.663Z</updated>
   <id>http://snorlax.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>局域网动态IP访问PC</title>
+    <link href="http://snorlax.top/2020/06/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%8A%A8%E6%80%81IP%E8%AE%BF%E9%97%AEPC/"/>
+    <id>http://snorlax.top/2020/06/29/局域网动态IP访问PC/</id>
+    <published>2020-06-29T15:09:52.000Z</published>
+    <updated>2020-06-29T15:35:42.663Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;操作环境&quot;&gt;&lt;a href=&quot;#操作环境&quot; class=&quot;headerlink&quot; title=&quot;操作环境&quot;&gt;&lt;/a&gt;操作环境&lt;/h3&gt;&lt;p&gt;局域网 macOS 远程控制 Win10&lt;/p&gt;
+&lt;h3 id=&quot;准备&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>文献工具</title>
@@ -494,31 +518,6 @@
     
     
       <category term="git" scheme="http://snorlax.top/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Keras模型训练报错</title>
-    <link href="http://snorlax.top/2020/05/18/Keras%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8A%A5%E9%94%99/"/>
-    <id>http://snorlax.top/2020/05/18/Keras模型训练报错/</id>
-    <published>2020-05-18T09:24:08.000Z</published>
-    <updated>2020-06-01T03:17:38.271Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;模型训练维度不匹配&quot;&gt;&lt;a href=&quot;#模型训练维度不匹配&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="http://snorlax.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
     
   </entry>
   

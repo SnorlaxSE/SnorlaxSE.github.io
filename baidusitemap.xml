@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://snorlax.top/2020/06/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%8A%A8%E6%80%81IP%E8%AE%BF%E9%97%AEPC/</loc>
+    <lastmod>2020-06-29</lastmod>
+  </url>  <url>
     <loc>http://snorlax.top/2020/06/24/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/</loc>
     <lastmod>2020-06-26</lastmod>
   </url>  <url>
@@ -61,9 +64,6 @@
     <loc>http://snorlax.top/2020/05/18/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E5%90%8C%E6%AD%A5/</loc>
     <lastmod>2020-06-01</lastmod>
   </url>  <url>
-    <loc>http://snorlax.top/2020/05/20/%E5%8D%8E%E4%B8%BA%E4%BA%91ECS%E4%B8%BB%E6%9C%BA/</loc>
-    <lastmod>2020-06-01</lastmod>
-  </url>  <url>
     <loc>http://snorlax.top/2020/05/15/hexo-Github/</loc>
     <lastmod>2020-06-01</lastmod>
   </url>  <url>
@@ -76,10 +76,13 @@
     <loc>http://snorlax.top/2020/05/18/Keras%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8A%A5%E9%94%99/</loc>
     <lastmod>2020-06-01</lastmod>
   </url>  <url>
-    <loc>http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
+    <loc>http://snorlax.top/2020/05/20/%E5%8D%8E%E4%B8%BA%E4%BA%91ECS%E4%B8%BB%E6%9C%BA/</loc>
     <lastmod>2020-06-01</lastmod>
   </url>  <url>
     <loc>http://snorlax.top/2020/05/15/Followers/</loc>
+    <lastmod>2020-06-01</lastmod>
+  </url>  <url>
+    <loc>http://snorlax.top/2020/05/19/Git-%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/</loc>
     <lastmod>2020-06-01</lastmod>
   </url>
 </urlset>
