@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://snorlax.top/2020/06/19/%E5%9B%BD%E5%A3%AB%E6%97%A0%E5%8F%8C/</loc>
+    
+    <lastmod>2020-06-30T02:36:18.161Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://snorlax.top/2020/06/22/MeDas-Archive/</loc>
     
     <lastmod>2020-06-30T02:27:00.803Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://snorlax.top/2020/06/02/mediapipe-hand-tracking-%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4/</loc>
     
     <lastmod>2020-06-19T16:06:57.693Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/2020/06/19/%E5%9B%BD%E5%A3%AB%E6%97%A0%E5%8F%8C/</loc>
-    
-    <lastmod>2020-06-19T11:52:15.833Z</lastmod>
     
   </url>
   
@@ -163,7 +163,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/rss/index.html</loc>
+    <loc>http://snorlax.top/donate/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -177,7 +177,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/links/index.html</loc>
+    <loc>http://snorlax.top/bangumi/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/comment/index.html</loc>
+    <loc>http://snorlax.top/links/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -219,7 +219,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/bangumi/index.html</loc>
+    <loc>http://snorlax.top/comment/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/donate/index.html</loc>
+    <loc>http://snorlax.top/rss/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
