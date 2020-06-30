@@ -163,7 +163,14 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/donate/index.html</loc>
+    <loc>http://snorlax.top/about/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/links/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -171,6 +178,41 @@
   
   <url>
     <loc>http://snorlax.top/lab/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/theme-sakura/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/comment/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/rss/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/tags/index.html</loc>
+    
+    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://snorlax.top/video/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
@@ -191,49 +233,7 @@
   </url>
   
   <url>
-    <loc>http://snorlax.top/links/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/tags/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/theme-sakura/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/video/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/comment/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/about/index.html</loc>
-    
-    <lastmod>2020-03-16T10:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://snorlax.top/rss/index.html</loc>
+    <loc>http://snorlax.top/donate/index.html</loc>
     
     <lastmod>2020-03-16T10:41:30.000Z</lastmod>
     
